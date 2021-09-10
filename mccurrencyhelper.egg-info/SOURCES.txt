@@ -1,0 +1,8 @@
+README.md
+setup.py
+mccurrencyhelper/__init__.py
+mccurrencyhelper/helperfunctions.py
+mccurrencyhelper.egg-info/PKG-INFO
+mccurrencyhelper.egg-info/SOURCES.txt
+mccurrencyhelper.egg-info/dependency_links.txt
+mccurrencyhelper.egg-info/top_level.txt
