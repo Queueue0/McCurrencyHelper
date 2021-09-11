@@ -11,6 +11,7 @@ def test_subtract():
     assert hf.subtract([1,1,1,1,1], [1,1,1,1,1]) == [0,0,0,0,0]
     assert hf.subtract([1,0,0,1,0], [0,1,0,0,1]) == [0,8,0,0,8]
     assert hf.subtract([0,1,0,0,0], [0,0,1,0,0]) == [0,0,3,0,0]
+    assert hf.subtract([1,0,0,0,0], [0,0,1,0,0]) == [0,8,3,0,0]
 
 def test_lessthan():
     assert hf.lessthan([1,0,0,0,0], [2,0,0,0,0]) == True

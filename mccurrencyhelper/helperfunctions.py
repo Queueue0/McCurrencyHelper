@@ -28,14 +28,14 @@ def subtract(amount1=[0,0,0,0,0], amount2=[0,0,0,0,0]):
     result = amount1.copy()
     for i in range(5):
         result[i] -= amount2[i]
-		
-    while result[1] < 0:
-        result[0] -= 1
-        result[1] += 9
 
     while result[2] < 0:
         result[1] -= 1
         result[2] += 4
+
+    while result[1] < 0:
+        result[0] -= 1
+        result[1] += 9
 
     while result[4] < 0:
         result[3] -= 1
